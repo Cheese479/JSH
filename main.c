@@ -1,4 +1,4 @@
-//JSH v1.3
+//JSH v1.4
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -129,7 +129,7 @@ int main() {
             }
         }
         else if (strcmp(cmd.args[0], "ver") == 0) { //ver cmd, thats me btw, hi
-            printf("James Shell v1.3 by James Baum published on December 8th 2025 with the MIT License");
+            printf("James Shell v1.4 by James Baum published on December 8th 2025 with the MIT License");
         }
         else {
             pid_t pid = fork();
